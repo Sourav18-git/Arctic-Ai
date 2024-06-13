@@ -10,8 +10,7 @@
 .sidebar img {
     width: 20px;
     /* height: 20px; */
-    margin-left:
-        20px;
+    /* margin-left:    20px; */
 }
 
 .sidebar .menu {
@@ -62,4 +61,21 @@
     padding:
         10px;
     border-radius:  50px;
+    font-size: 16px;
+}
+.sidebar .recent :hover{
+    background-color: #dedfde;
+} 
+.sidebar .bottom .help , .sidebar .bottom .activity { 
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    padding: 10px 40px 10px 10px;
+    border-radius:  50px;
+    font-size: 19px;
+}
+.sidebar .bottom :hover{
+    background-color: #dedfde;
 }

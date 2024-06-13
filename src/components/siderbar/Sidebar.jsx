@@ -36,6 +36,10 @@ export default function Sidebar() {
                     <img src={assets.history_icon} alt="" />
                     <p>Activity</p>
                 </div>
+                <div className="settngs">
+                <img src={assets.setting_icon} alt="" />
+                    <p>Activity</p>
+                </div>
             </div>
         </div>
     )
